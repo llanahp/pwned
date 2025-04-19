@@ -1,3 +1,7 @@
+---
+date: 2024-09-21
+categories: [Linux, Medium]
+---
 
 ![dockerlabs](https://github.com/user-attachments/assets/b3d3aade-08ea-4beb-8df9-716546c86b98)
 

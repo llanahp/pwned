@@ -1,3 +1,8 @@
+---
+date: 2025-03-02
+categories: [Windows, Medium, AD]
+---
+
 ![Administrator](https://labs.hackthebox.com/storage/avatars/9d232b1558b7543c7cb85f2774687363.png)
 
 ---

@@ -1,3 +1,8 @@
+---
+date: 2024-12-10
+categories: [Linux, Easy]
+---
+
 ![greenhorn](https://github.com/user-attachments/assets/82138d6e-2c7f-4b3a-86fd-3717c751d086)
 
 ---

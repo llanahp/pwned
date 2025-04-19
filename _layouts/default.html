@@ -19,7 +19,7 @@
 {% endif %}
 {% if site.comments.disqus_shortname and page.layout == "post" %}<script src="//{{ site.comments.disqus_shortname }}.disqus.com/embed.js" async></script>{% endif %}
 {% if site.comments.isso_domain and page.layout == "post" %}<script data-isso="http://{{ site.comments.isso_domain }}" src="//{{ site.comments.isso_domain }}/js/embed.min.js"></script>{% endif %}
-{% if site.show_sidebar or site.sidebar %}{% include sidebar.html %}{% endif %}
+{% include sidebar.html %}
 
 {% if site.navigation %}
   {% assign pages = site.navigation %}
@@ -27,9 +27,25 @@
   {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
 {% endif %}
 
-<header>
-  <a href="{{ "/" | relative_url }}" class="title">{{ site.title | escape }}</a>
-  {% include menu.html menu=pages %}
+
+
+{% if site.navigation %}
+  {% assign pages = site.navigation %}
+{% else %}
+  {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
+{% endif %}
+
+<header style="display: flex; justify-content: space-between; align-items: center;">
+  <div style="display: inline-flex; align-items: center; " >
+    <a href="{{ "/" | relative_url }}" class="title" style="display: inline-flex; align-items: center; text-decoration: none;">
+      <img src="{{ '/assets/images/Logo.jpg' | relative_url }}" class="avatar" alt="Avatar">
+      {{ site.title | escape }}
+    </a>
+    
+    <!--<div style="margin-left: auto;">
+      {% include menu.html menu=pages %}   
+    </div>-->
+  </div>
 </header>
 
 {{ content }}

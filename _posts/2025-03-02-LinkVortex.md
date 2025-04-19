@@ -1,3 +1,8 @@
+---
+date: 2025-03-02
+categories: [Linux, Easy]
+---
+
 ![LinkVortexBusqueda](https://labs.hackthebox.com/storage/avatars/97f12db8fafed028448e29e30be7efac.png)
 
 ---

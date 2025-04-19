@@ -1,0 +1,27 @@
+---
+layout: page
+title: Categories
+---
+
+
+<h2 id="category-title">Categories: All</h2>
+<ul id="category-posts">
+  {% for post in site.posts %}
+    {% assign category = post.categories[0] %}
+    <li class="category-post" data-category="{{ category }}">
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+<script>
+  const category = decodeURIComponent(window.location.hash.substring(1));
+  if (category) {
+    document.getElementById("category-title").innerText = category;
+    const posts = document.querySelectorAll(".category-post");
+    posts.forEach(post => {
+      if (post.dataset.category !== category) {
+        post.style.display = "none";
+      }
+    });
+  }
+</script>

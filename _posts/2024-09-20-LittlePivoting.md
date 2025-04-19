@@ -1,3 +1,7 @@
+---
+date: 2024-09-20
+categories: [Linux, Medium]
+---
 
 ![image](https://github.com/user-attachments/assets/bb0e3da1-16cb-45b5-8aaa-83ceb2d81ed6)
 

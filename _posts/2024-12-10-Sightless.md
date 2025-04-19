@@ -1,3 +1,8 @@
+---
+date: 2024-12-10
+categories: [Linux, Easy]
+---
+
 ![logo](https://github.com/user-attachments/assets/7392fc4b-a18b-4189-8f58-00f1536e7597)
 
 ---

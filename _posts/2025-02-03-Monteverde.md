@@ -1,3 +1,8 @@
+---
+date: 2025-02-03
+categories: [Windows, Medium, AD]
+---
+
 ![Monteverde](https://labs.hackthebox.com/storage/avatars/00ceebe5dbef1106ce4390365cd787b4.png)
 
 ---

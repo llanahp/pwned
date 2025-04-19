@@ -1,3 +1,7 @@
+---
+date: 2024-09-22
+categories: [Linux, Hard]
+---
 
 ![image](https://github.com/user-attachments/assets/1ad41755-686c-411e-bbe8-b1e2af1e8161)
 

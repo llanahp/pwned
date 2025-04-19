@@ -1,3 +1,8 @@
+---
+date: 2025-03-15
+categories: [Windows, Easy, AD]
+---
+
 ![Timelapse](https://labs.hackthebox.com/storage/avatars/bae443f73a706fc8eebc6fb740128295.png)
 
 ---

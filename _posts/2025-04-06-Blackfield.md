@@ -1,3 +1,8 @@
+---
+date: 2025-04-06
+categories: [Windows, Hard, AD]
+---
+
 ![Cascade](https://labs.hackthebox.com/storage/avatars/7c69c876f496cd729a077277757d219d.png)
 
 ---

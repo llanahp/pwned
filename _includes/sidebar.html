@@ -22,5 +22,15 @@
     </a>
   {%- endfor -%}
   </nav>
+  <h2>Categories</h2>
+    
+  <ul>
+    {% assign ordered_categories = "Easy,Medium,Hard,Insane,Windows,Linux,AD" | split: "," %}
+    {% for name in ordered_categories %}
+      {% if site.categories[name] %}
+        <li><a href="/categories#{{ name }}">{{ name }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
   <div class="description">{{ site.description }}</div>
 </aside>
