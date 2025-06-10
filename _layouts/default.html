@@ -27,16 +27,8 @@
   {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
 {% endif %}
 
-
-
-{% if site.navigation %}
-  {% assign pages = site.navigation %}
-{% else %}
-  {% assign pages = site.pages | where_exp: "item", "item.title and item.sitemap != false" | sort: "order" %}
-{% endif %}
-
 <header style="display: flex; justify-content: space-between; align-items: center;">
-  <div style="display: inline-flex; align-items: center; " >
+  <div style="" >
     <a href="{{ "/" | relative_url }}" class="title" style="display: inline-flex; align-items: center; text-decoration: none;">
       <img src="{{ '/assets/images/Logo.jpg' | relative_url }}" class="avatar" alt="Avatar">
       {{ site.title | escape }}
@@ -47,6 +39,11 @@
     </div>-->
   </div>
 </header>
+
+
+
+
+
 
 {{ content }}
 
