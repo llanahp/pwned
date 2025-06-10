@@ -20,7 +20,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {file: "index.html"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Github, icon: github, url: "https://llanahp.github.io/pwned/"}
+  - {title: Github, icon: github, url: "https://github.com/llanahp"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
