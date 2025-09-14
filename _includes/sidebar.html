@@ -28,7 +28,7 @@
     {% assign ordered_categories = "Easy,Medium,Hard,Insane,Windows,Linux,AD" | split: "," %}
     {% for name in ordered_categories %}
       {% if site.categories[name] %}
-        <li><a href="{{ url | relative_url }}/categories#{{ name }}">{{ name }}</a></li>
+        <li><a href="https://llanahp.github.io/pwned/categories#{{ name }}">{{ name }}</a></li>
       {% endif %}
     {% endfor %}
   </ul>
